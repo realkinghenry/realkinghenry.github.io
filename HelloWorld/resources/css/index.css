@@ -1,0 +1,32 @@
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navigation {
+  display: block;
+}
+
+.nav-links,
+.navigation li,
+.nav-links a {
+  text-align: right;
+  text-decoration: none;
+  background-color: rgb(0, 124, 146);
+  color: black;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: purple;
+}
+body {
+  background: rgb(213, 230, 255);
+}
